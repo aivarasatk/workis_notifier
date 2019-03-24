@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/job_item_height"
+    android:id="@+id/job_list_main_layout"
+    android:layout_marginBottom="8dp"
+    android:background="#FAFAFA"
+    xmlns:tools="http://schemas.android.com/tools">
+    <TextView
+        android:id="@+id/separator"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/separator_height"
+        android:paddingLeft="32dp"
+        android:paddingTop="8dp"
+        android:textColor="#737373"
+        tools:text="2018-07-07"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_below="@id/separator"
+        android:background="@android:color/white"
+        >
+        <ImageView
+            android:id="@+id/company_logo"
+            android:layout_width="@dimen/company_logo_size"
+            android:layout_height="@dimen/company_logo_size"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            tools:background="@mipmap/ic_launcher"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="8dp">
+            <TextView
+                android:id="@+id/job_title"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textAlignment="textStart"
+                android:layout_gravity="start"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                android:scrollHorizontally="true"
+                android:ellipsize="end"
+                android:maxLines="1"
+                tools:text="Job title MANYWORDSHERE"/>
+            <TextView
+                android:id="@+id/company_name"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textAlignment="textStart"
+                android:layout_gravity="start"
+                android:scrollHorizontally="true"
+                android:ellipsize="end"
+                android:maxLines="1"
+                tools:text="Company name"/>
+            <TextView
+                android:id="@+id/job_address"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textAlignment="textStart"
+                android:layout_gravity="start"
+                android:textColor="@android:color/darker_gray"
+                android:scrollHorizontally="true"
+                android:ellipsize="end"
+                android:maxLines="1"
+                tools:text="job address"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/hour_pay"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textAlignment="textEnd"
+                android:layout_gravity="end"
+                tools:text="hour pay"/>
+            <TextView
+                android:id="@+id/expected_total"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textAlignment="textEnd"
+                android:layout_gravity="end"
+                tools:text="expected total"/>
+            <TextView
+                android:id="@+id/work_time"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textAlignment="textEnd"
+                android:layout_gravity="end"
+                android:textColor="@android:color/darker_gray"
+                tools:text="work time"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

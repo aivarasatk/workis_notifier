@@ -1,0 +1,83 @@
+<resources>
+
+    <string name="tab_text_1">NAUJAUSI</string>
+    <string name="tab_text_2">ŠIANDIENOS</string>
+    <string name="tab_text_3">LAISVI DARBAI</string>
+
+    <string name="newest_job_title">NAUJAUSI ĮKELTI DARBAI</string>
+    <string name="todays_jobs_title">ŠIANDIEN ĮKELTI DARBAI</string>
+    <string name="available_jobs_title">KANDIDATUOJAMI DARBAI</string>
+
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+    <!-- ORIGINAL WORKIS DATA -->
+    <string name="app_name">pranešėjas 2</string>
+    <string name="main_activity_label">Atnaujinimų sąrašas</string>
+    <string name="job_activity_label">Darbai</string>
+    <string name="empty_view_title_text">Šiandien atnaujinimų nebuvo</string>
+    <string name="no_connection_text">Nėra interneto ryšio</string>
+    <string name="defaultText">Nauji darbai</string>
+    <string name="msg_subscribe_failed">Nepavyko prenumeruoti pranešimų</string>
+
+    <string name="atlygis_nuo">Atlygis nuo</string>
+
+    <string name="settings_activity_label">Nustatymai</string>
+    <string name="action_settings">Nustatymai</string>
+    <string name="settings_action_save"></string>
+    <string name="settings_weekday_selection">Savaitės dienos</string>
+    <string name="settings_weekday_selection_description">Gaukite pranešimus konkrečioms dienoms</string>
+
+    <string name="select_weekdays">Pasirinkite dienas</string>
+
+    <string-array name="weekdays">
+        <item>Pirmadienis</item>
+        <item>Antradienis</item>
+        <item>Trečiadienis</item>
+        <item>Ketvirtadienis</item>
+        <item>Penktadienis</item>
+        <item>Šeštadienis</item>
+        <item>Sekmadienis</item>
+    </string-array>
+
+    <string name="settings_dialog_ok">Išsaugoti</string>
+    <string name="settings_dialog_cancel">Atšaukti</string>
+
+    <string name="job_updates_db_uri">new_jobs</string>
+    <string name="job_updates_summary_db_uri">new_jobs_summary</string>
+    <string name="available_jobs_db_uri">available_jobs</string>
+
+    <string name="new_city">new_city</string>
+    <string name="new_rate">new_rate</string>
+    <string name="new_weekdays">new_weekdays</string>
+    <string name="loader_inited">loader_inited</string>
+
+    <string name="default_city">Vilnius</string>
+    <string name="action_about">Apie</string>
+    <string name="about_text_cr_offset">2018</string>
+    <string-array name="cities_array">
+        <item>Vilnius</item>
+        <item>Kaunas</item>
+        <item>Klaipėda</item>
+        <item>Šiauliai</item>
+        <!--
+        <item>Panevėžys</item>
+        <item>Utena</item>
+        <item>Plungė</item>
+        <item>Šilutė</item>
+        <item>Ukmergė</item>
+        <item>Mariampolė</item>
+        <item>Mažeikiai</item>
+        <item>Tauragė</item>
+        -->
+        <item>Palanga</item>
+    </string-array>
+
+    <string-array name="cities_array_ascii">
+    <item>Vilnius</item>
+    <item>Kaunas</item>
+    <item>Klaipeda</item>
+    <item>Siauliai</item>
+    <item>Palanga</item>
+    </string-array>
+</resources>

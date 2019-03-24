@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#003D7E</color>
+    <color name="colorPrimaryDark">#3F51B5</color>
+    <color name="colorAccent">#7AC943</color>
+
+    <color name="job_count_bg_color">#003D7E</color>
+    <!--<color name="list_item_background_color">#D6F2C2</color> light green-->
+    <color name="list_item_background_color">#FFFFFF</color>
+    <color name="list_item_background_color2">#000000</color>
+</resources>
